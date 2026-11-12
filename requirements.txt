@@ -1,0 +1,15 @@
+# Versions tested together on 2026-11-11 (macOS arm64, Python 3.11).
+# On a CUDA machine the torch wheel from PyPI includes CUDA support.
+torch==2.15.0
+numpy==2.4.6
+scipy==1.17.1
+scikit-learn==1.9.1
+pandas==3.1.1
+matplotlib==3.11.2
+mne==1.13.2
+moabb==1.7.2
+braindecode==2.0.0
+specparam==2.0.0rc7
+pyyaml==6.0.3
+tqdm==4.70.1
+pytest
